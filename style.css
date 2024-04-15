@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 'arvo';
+    src: url('assets/font/Arvo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'arvo-bold';
+    src: url('assets/font/Arvo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'mulish-light';
+    src: url('assets/font/mulish/Mulish-Light.ttf');
+}
+
+@font-face {
+    font-family: 'mulish-black';
+    src: url('assets/font/mulish/Mulish-Black.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: #F0ECF9;
+    border-bottom-right-radius: 300px ;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+li a{
+    font-size: 18px;
+    /* line-height: 22.23px; */
+    font-family: 'arvo';
+    color: #808081;
+    text-transform: capitalize;
+
+}
+
+
+
+
+
+
+/* .nav-list{
+    display: flex;
+
+} */
+
+/* .nav-list li{
+    list-style: none;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    font-size: 18px;
+    line-height: 22.23px;
+    font-family: 'arvo';
+    color: #808081;
+    text-transform: capitalize;
+
+
+}  */
+
+
+
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+
+}
+
+.h-img{
+    display: flex;
+}
+
+
+.hero-row{
+    margin-top: 3rem;
+}
+
+.left-section p{
+    font-weight: 700;
+    font-family: 'mulish-light';
+    color: #6F42C199;
+}
+
+.left-section h2{
+    font-size: 48.27px;
+    color: #6F42C1;
+    text-transform: capitalize;
+    font-family: 'mulish-black';
+    letter-spacing: 4%;
+    font-weight: 900;
+}
+
+.hero-para p{
+    color: #808081;
+    font-family: 'mulish-light';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.h-btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #6F42C1;
+    border-radius: 25.8px;
+    text-transform: capitalize;
+    border: 1px solid #6F42C1;
+}
+
+
+
+
+.mid-text {
+    margin-top: 4rem;
+
+}
+
+.mid-text h3{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'mulish-black';
+    color: #6F42C1;
+    text-align: center;
+
+}
+
+.mid-text p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'mulish-light';
+    color: #808081;
+    text-align: center;
+
+}
+
+.case-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.case img{
+    width: 26px;
+}
+
+.case h4{
+    margin-top: 18px;
+    font-family: 'mulish-black';
+    font-size: 27px;
+    font-weight: 900;
+
+}
+
+
+.case p{
+     font-family: 'mulish-light';
+     font-size: 12px;
+     color: #808081;
+     font-weight: 500;
+     text-transform: uppercase;
+     margin-top: 9px;
+
+}
+
+.check{
+    margin-top: 5rem;
+}
+
+.check-2{
+    margin-top: 5rem;
+}
+
+.check-sign{
+    display: flex;
+}
+
+.check-sign img{
+    width: 17px;
+    height: 17px;
+     margin-top: 3px;
+    margin-right: 6px;
+}
+
+
+.check-img img{
+    width: 90%;
+}
+
+.check-section h5{
+    color: #6F42C1;
+    font-family: 'mulish-black';
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.virus{
+    display: flex;
+}
+
+.virus img {
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+
+.protection-text h6{
+    font-size: 18px;
+    color: #6F42C1;
+    font-weight: 900;
+    font-family: 'mulish-black';
+
+}
+
+.protection-text p{
+      font-family: 'mulish-light';
+     font-size: 16px;
+     color: #808081;
+     font-weight: 500;
+     margin-top: -7px;
+
+}
+
+.protection{
+    margin-top: 14%;
+    
+}
+
+.check-para{
+    width: 100%;
+}
+
+.check-para p{
+    max-width: 70%;
+    font-family: 'mulish-light';
+     font-size: 15px;
+     color: #808081;
+     font-weight: 500;
+
+}
+
+.check-section p{
+      font-family: 'mulish-light';
+     font-size: 15px;
+     color: #808081;
+     font-weight: 500;
+
+}
+
+.check-btn{
+    padding: 10px 41px;
+    background-color: #6F42C1;
+    color: white;
+    border-radius: 25.8px;
+    text-transform: uppercase;
+    border: 1px solid #6F42C1;
+    font-family: 'mulish-light';
+    font-weight: 400;
+}
+
+.purple-section{
+    background-color: #F8F5FC;
+}
+
+.cards-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.two-cards{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media screen and (max-width:1127px) {
+   .h-img img{
+        width: 470px;
+    }
+
+    .hero{
+        height: 424px;
+    }
+    
+}
+
+
+@media screen and (max-width:992px) {
+    .hero{
+        border-bottom-right-radius: 0%;
+        height: 688px;
+    }
+
+    .h-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-img img{
+        width: 390px;
+    }
+
+    .hero-row{
+        flex-direction: column-reverse;
+    }
+
+
+    .hero-row{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-section *{
+        text-align: center;
+    }
+
+    .check{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .check-2{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+
+    .check-section{
+        margin-top: 2rem;
+    }
+
+    .check-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .check-img img{
+        width: 100%;
+    }
+
+    .check-section *{
+        text-align: center;
+    }
+
+    .check-sign {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+    .check-sign img{
+    width: 17px;
+    height: 17px;
+     margin-top: -20px;
+    /* margin-right: 6px; */
+}
+
+    .check-para p{
+        text-align: center;
+        max-width: 100%;
+
+    }
+
+    .check-img img{
+        width: 500px;
+    }
+
+    .c-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+  
+
+}
+
+
+@media screen and (max-width:767px) {
+    .case-section{
+        flex-direction: column;
+    }
+
+     .check-img img{
+        width: 90%;
+    }
+
+    .protection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+   .virus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    /* column-gap: 2rem; */
+    }
+
+    
+}
