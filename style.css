@@ -284,7 +284,7 @@ li a{
     background-color: #F8F5FC;
 }
 
-.cards-section{
+/* .cards-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -299,7 +299,7 @@ li a{
 .cards{
     display: flex;
     flex-direction: row;
-}
+} */
 
 
 
