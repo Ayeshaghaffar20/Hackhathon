@@ -567,7 +567,101 @@ li a{
 
 .footer-color {
     background-color: #F0ECF9;
+    padding-top: 35px;
 }
+
+.footer-para{
+    color: #808081 !important;
+    font-family: 'mulish-light';
+    font-size: 15px;
+    font-weight: 400;
+
+
+
+}
+
+.footer-list{
+    color: #6F42C1 !important;
+    font-family: 'mulish-light';
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.footer-icon img{
+    margin-top: 20px;
+}
+
+.symtoms{
+    padding-bottom: 4rem;
+}
+
+.contigous{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.date img{
+    width: 321px;
+}
+
+.date-para{
+    background-color: #6F42C1;
+    width: 146px;
+    height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'mulish-light';
+    font-weight: 400;
+    margin-bottom: 0px;
+    position: absolute;
+    margin-top: -15px;
+    padding: 3px;
+    margin-left: 70px;
+    z-index: 9999;
+}
+
+.admin{
+    display: flex;
+    margin-top: 36px;
+    margin-left: 53px;
+}
+
+.admin p{
+    margin-right: 67px;
+    color: #808081 !important;
+    font-family: 'mulish-light';
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.admin img{
+     width: 17px;
+    height: 17px;
+     /* margin-top: 3px; */
+    margin-right: 6px;
+}
+
+.contigous h6{
+    color: #6F42C1;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'mulish-light';
+}
+
+
+    
+
 
 
 
@@ -586,6 +680,10 @@ li a{
     .protect-img img{
         width: 90%;
     }
+
+
+
+
     
 }
 
@@ -593,7 +691,7 @@ li a{
 @media screen and (max-width:992px) {
     .hero{
         border-bottom-right-radius: 0%;
-        height: 688px;
+        height: 482px;
     }
 
     .h-img{
@@ -607,7 +705,7 @@ li a{
     }
 
     .hero-row{
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
     }
 
 
@@ -731,6 +829,16 @@ li a{
 
 
 @media screen and (max-width:767px) {
+
+    .hero{
+        border-bottom-right-radius: 0%;
+        height: 760px;
+    }
+
+    .hero-row{
+        flex-direction: column-reverse;
+    }
+
     .card-padding-top{
     padding-top: 3rem;
     padding-bottom: 2rem;
@@ -799,6 +907,21 @@ li a{
     .dr-btn{
         /* max-width: 24%; */
     }
+
+    .footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.footer-para p{
+    max-width: 100%;
+}
+
+.admin p{
+    margin-right: 47px;
+}
 
     
 }
