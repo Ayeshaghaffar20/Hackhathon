@@ -682,7 +682,21 @@ li a{
     }
 
 
+}
 
+@media screen and (max-width:1199px) and (min-width:770px){
+    .date img{
+        width: 225px;
+
+    }
+
+    .admin{
+        margin-left: 0px;
+    }
+
+    .admin p{
+        margin-right: 25px;
+    }
 
     
 }
