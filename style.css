@@ -625,7 +625,7 @@ li a{
     position: absolute;
     margin-top: -15px;
     padding: 3px;
-    margin-left: 70px;
+    margin-left: 90px;
     z-index: 9999;
 }
 
@@ -684,7 +684,7 @@ li a{
 
 }
 
-@media screen and (max-width:1199px) and (min-width:770px){
+@media screen and (max-width:1199px) and (min-width:768px){
     .date img{
         width: 225px;
 
@@ -698,7 +698,10 @@ li a{
         margin-right: 25px;
     }
 
-    
+    .date-para{
+        margin-left: 45px;
+        width: 128px;
+    }
 }
 
 
@@ -726,6 +729,11 @@ li a{
     .hero-row{
         align-items: center;
         justify-content: center;
+    }
+
+    .nav-item a{
+        font-weight: 900;
+        
     }
 
     .left-section *{
@@ -832,6 +840,9 @@ li a{
         max-width: 60%;
     }
 
+    
+
+    
  
 
 
@@ -936,6 +947,11 @@ li a{
 .admin p{
     margin-right: 47px;
 }
+
+.date-para{
+        margin-left: 88px;
+    }
+
 
     
 }
